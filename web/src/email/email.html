@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width">
+		<meta property="og:title" content="Speakaboos is on Android">
+		<title>Speakaboos is on Android</title>
+		<style type="text/css">
+    	body, #body {
+        width: 100%;
+        min-width: 565px;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+        background: #ffffff;
+        font-family: "Helvetica";
+      }
+      table, tbody, thead, th, tr, td {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border-spacing: 0;
+      }
+    		#header {
+          width: 100%;
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+          #header > td > table  {
+            width: 100%;
+            border: none;
+            padding: 16px 14px;
+            margin: 0;
+          }
+        	#logo {
+            width: 223px
+          }
+        	#logo a {
+            display: table-cell;
+          }
+        		#navbar-table {
+              margin: 0 auto;
+              padding: 0 30px;
+              width: 100%;
+              max-width: 350px;
+            }
+        		#navbar-table-link-a, #navbar-table-link-b, #navbar-table-link-c, #navbar-table-link-d {
+              text-align: center;
+            }
+            #navbar-table-link-a a, #navbar-table-link-b a, #navbar-table-link-c a {
+              text-decoration: none;
+              font-size: 18px;
+              color: #707070;
+            }
+            #navbar-table-link-d a {
+              text-decoration: none;
+              font-size: 18px;
+              color: #77c300;
+            }
+        #main {
+            width: 100%;
+            border: none;
+            padding: 0;
+            margin: 0;
+        }
+        #main > td > table  {
+          width: 100%;
+          border: none;
+          padding: 0;
+          margin: 0;
+        }
+          #section-hero {
+            background-color: #0080ff;
+          }
+            #section-hero-decoration {
+              width: 246px;
+              height: 351px;
+              line-height: 0; /* To prevent unnecessary indent under image */
+            }
+              #section-hero-decoration img {
+                width: 246px;
+                height: 351px;
+                color: #ffffff;
+              }
+            #section-hero-content {
+              padding: 0 40px;
+              height: 351px;
+            }
+              #section-hero-content h1 {
+                margin: 0 0 15px 0;
+                color: #ffffff;
+                line-height: 46px;
+                font-size: 40px;
+                font-weight: 300;
+              }
+              #section-hero-content p {
+                margin: 0 0 15px 0;
+                color: #ffffff;
+                line-height: 22px;
+                font-size: 18px;
+              }
+              #section-hero-content a {
+                border: 0;
+                text-decoration: none;
+                color: #ffffff;
+              }
+          #section-subscribe {
+            width: 100%;
+          }
+            #section-subscribe > td > table {
+              margin: 0 auto;
+            }
+            #section-subscribe-content {
+              padding: 40px 15px 40px 30px;
+              vertical-align: middle;
+              max-width: 340px;
+            }
+              #section-subscribe-content h2 {
+                margin: 0;
+                color: #707070;
+                font-size: 30px;
+                font-weight: 300;
+              }
+              #section-subscribe-content p {
+                margin: 0;
+                color: #707070;
+                line-height: 20px;
+                font-size: 17px;
+                font-weight: 300;
+
+              }
+            #section-subscribe-decoration {
+              padding: 40px 30px 40px 15px;
+              vertical-align: middle;
+            }
+              #section-subscribe-decoration img {
+                border: none;
+                width: 282px;
+                height: 147px;
+              }
+          #section-cta {
+            background-color: #50bf00;
+          }
+            #section-cta > td > center > table {
+              padding: 30px 0;
+              margin: 0 auto;
+            }
+            #section-cta-message {
+              padding: 0 15px 0 0;
+            }
+              #section-cta-message h2 {
+                margin: 0;
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: normal;
+                text-align: center;
+              }
+            #section-cta-button {
+              padding: 0 0 0 15px;
+            }
+              #section-cta-button a {
+                padding: 15px 55px;
+                border: 2px solid rgba(255, 255, 255, 0.25);
+                border-radius: 30px;
+                box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.1);
+                color: #ffffff;
+                font-size: 20px;
+                text-align: center;
+                text-decoration: none;
+              }
+        #footer > td > table {
+          width: 100%;
+        }
+          #footer-navbar {
+            margin: 0 auto;
+            padding: 40px 0 30px 0;
+          }
+            #footer-navbar-a, #footer-navbar-b, #footer-navbar-c, #footer-navbar-d {
+              padding: 0 15px;
+              border-right: 1px solid #cccccc;
+            }
+            #footer-navbar-d {
+              border-right: none;
+            }
+            #footer-navbar-a > a, #footer-navbar-b > a, #footer-navbar-c > a, #footer-navbar-d > a {
+              color: #545454;
+              font-size: 13px;
+              text-align: center;
+              text-decoration: none;
+            }
+          #footer-social {
+            margin: 0 auto;
+            padding: 0 0 25px 0;
+          }
+            #footer-social-a, #footer-social-b, #footer-social-c, #footer-social-d, #footer-social-e {
+              padding: 0 8px;
+            }
+          #footer-address {
+            margin: 0 auto;
+            padding: 0 0 10px 0;
+          }
+            #footer-address p {
+              color: #808080;
+              font-size: 10px;
+              font-weight: 300;
+              line-height: 14px;
+              margin: 0;
+              text-align: center;
+            }
+		</style>
+	</head>
+
+	<body>
+		<table id="body" cellpadding="0" cellspacing="0"><tbody>
+
+        <tr id="header">
+          <td>
+            <table cellpadding="0" cellspacing="0"><tbody>
+              <tr>
+                <td id="logo">
+                  <a href="http://www.speakaboos.com/">
+                    <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/logo.png"
+                         width="223px" height="35px" border=0>
+                  </a>
+                </td>
+
+                <td id="navbar">
+                  <!--<center>-->
+                    <table id="navbar-table" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td id="navbar-table-link-a">
+                          <a href="https://play.google.com/store/apps/details?id=air.com.speakaboos.google_play"
+                             title="App">
+                            <span>App</span>
+                          </a>
+                        </td>
+
+                        <td id="navbar-table-link-b">
+                          <a href="http://www.speakaboos.com/"
+                             title="Website">
+                            <span>Website</span>
+                          </a>
+                        </td>
+
+                        <td id="navbar-table-link-c">
+                          <a href="http://help.speakaboos.com/"
+                             title="Help">
+                            <span>Help</span>
+                          </a>
+                        </td>
+
+                        <td id="navbar-table-link-d">
+                          <a href="https://www.speakaboos.com/signup/individual/"
+                             title="Join">
+                            <span>Join</span>
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  <!--</center>-->
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr><!-- End of Header -->
+
+        <tr id="main">
+          <td>
+            <table cellpadding="0" cellspacing="0"><tbody>
+
+              <tr id="section-hero">
+                <td>
+                  <table cellpadding="0" cellspacing="0"><tbody>
+                    <tr>
+
+                      <td id="section-hero-decoration">
+                        <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/hero-decoration.png"
+                             alt="Speakaboos is on Android" />
+                      </td>
+
+                      <td id="section-hero-content">
+                        <table cellpadding="0" cellspacing="0"><tbody>
+
+                          <tr>
+                            <td>
+                              <h1>Speakaboos is on Android</h1>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <p>
+                                We're excited to announce the launch of our Android app. Install the app on your
+                                Android phone or tablet and take your favorite stories with you anywhere you go.
+                              </p>
+                            </td>
+                          </tr>
+
+                          <tr>
+                            <td>
+                              <a href="https://play.google.com/store/apps/details?id=air.com.speakaboos.google_play"
+                                 title="Speakaboos: Stories for Kids on Google Play">
+                                <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/google-play-button.png"
+                                     alt="Speakaboos: Stories for Kids on Google Pla" />
+                              </a>
+                            </td>
+                          </tr>
+
+                        </tbody></table>
+                      </td>
+
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr><!-- End of Heroshot section-->
+
+              <tr id="section-subscribe">
+                <td>
+                  <table cellpadding="0" cellspacing="0"><tbody>
+                    <tr>
+
+                      <td id="section-subscribe-content">
+                        <h2>Subscribers:</h2>
+                        <p>Download the app and login with your current account for unlimited access.</p>
+                      </td>
+
+                      <td id="section-subscribe-decoration">
+                        <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/phone-with-speakaboos-app.png"
+                             alt="Speakaboos on Android" />
+                      </td>
+
+                    </tr>
+                  </tbody></table>
+                </td>
+              </tr><!-- End of Subscribe section -->
+
+              <tr id="section-cta">
+                <td>
+                  <center><!-- This tag needs to make horizontal alignment by center in email clients,
+                               which don't support "margin: 0 auto;" properties -->
+                    <table cellpadding="0" cellspacing="0"><tbody>
+                      <tr>
+
+                        <td id="section-cta-message">
+                          <h2>Not a subscriber?</h2>
+                        </td>
+
+                        <td id="section-cta-button">
+                          <a href="https://www.speakaboos.com/signup/individual/" title="Get Started Now">
+                            Get Started Now
+                          </a>
+                        </td>
+
+                      </tr>
+                    </tbody></table>
+                  </center>
+                </td>
+              </tr><!-- End of CTA section -->
+
+            </tbody></table>
+          </td>
+        </tr><!-- End of Main content -->
+
+        <tr id="footer">
+          <td>
+            <table cellpadding="0" cellspacing="0"><tbody>
+              <tr>
+                <td>
+                  <center><!-- This tag needs to make horizontal alignment by center in email clients,
+                               which don't support "margin: 0 auto;" properties -->
+                    <table id="footer-navbar" cellpadding="0" cellspacing="0"><tbody>
+                      <tr>
+                        <td id="footer-navbar-a">
+                          <a href="http://corporate.speakaboos.com/about-us/">
+                            <span>About</span>
+                          </a>
+
+                        </td>
+
+                        <td id="footer-navbar-b">
+                          <a href="http://help.speakaboos.com/">
+                            <span>Help</span>
+                          </a>
+                        </td>
+
+                        <td id="footer-navbar-c">
+                          <a href="http://www.speakaboos.com/page/privacy">
+                            <span>Privacy Plicy</span>
+                          </a>
+                        </td>
+
+                        <td id="footer-navbar-d">
+                          <a href="http://www.speakaboos.com/page/terms">
+                            <span>Terms of Use</span>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                  </center>
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <center><!-- This tag needs to make horizontal alignment by center in email clients,
+                               which don't support "margin: 0 auto;" properties -->
+                    <table id="footer-social" cellpadding="0" cellspacing="0"><tbody>
+                      <tr>
+                        <td id="footer-social-a">
+                          <a href="https://www.facebook.com/speakaboos"
+                             title="Follow Speakaboos on Facebook">
+                            <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/facebook.png"
+                                 alt="Follow Speakaboos on Facebook"/>
+                          </a>
+                        </td>
+
+                        <td id="footer-social-b">
+                          <a href="https://twitter.com/speakaboos"
+                             title="Follow Speakaboos on Twitter">
+                            <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/twitter.png"
+                                 alt="Follow Speakaboos on Twitter"/>
+                          </a>
+                        </td>
+
+                        <td id="footer-social-c">
+                          <a href="https://www.youtube.com/user/Speakaboos"
+                             title="Watch Speakaboos on Youtube">
+                            <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/youtube.png"
+                                 alt="Watch Speakaboos on Youtube"/>
+                          </a>
+                        </td>
+
+                        <td id="footer-social-d">
+                          <a href="https://plus.google.com/u/0/+speakaboos/posts"
+                             title="Follow Speakaboos on Google Plus">
+                            <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/google-plus.png"
+                                 alt="Follow Speakaboos on Google Plus"/>
+                          </a>
+                        </td>
+
+                        <td id="footer-social-e">
+                          <a href="https://itunes.apple.com/us/app/speakaboos-read-along-sing/id600093661"
+                             title="Download Speakaboos in AppStore">
+                            <img src="https://dl.dropboxusercontent.com/u/49256739/speakaboos/appstore.png"
+                                 alt="Download Speakaboos from AppStore"/>
+                          </a>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                  </center>
+
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <center><!-- This tag needs to make horizontal alignment by center in email clients,
+                               which don't support "margin: 0 auto;" properties -->
+                    <table id="footer-address" cellpadding="0" cellspacing="0"><tbody>
+                      <tr>
+                        <td>
+                          <p>460 Park Avenue South, 4th Floor<br/>New York, NY 10016</p>
+                          <br/>
+                          <p>© 2015 Speakaboos</p>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                  </center>
+                </td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr><!-- End of Footer -->
+
+    </tbody></table><!-- End of Body -->
+  </body>
+</html>
