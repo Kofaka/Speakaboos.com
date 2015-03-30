@@ -1,2 +1,6 @@
 vendor/
 .env
+*.DS_Store
+*.css.map
+web/.idea/
+web/.sass-cache/
