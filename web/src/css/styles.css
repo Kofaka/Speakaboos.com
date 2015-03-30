@@ -3695,6 +3695,8 @@ main {
         main .main-content dl {
           margin: 10px 5px; } }
     main .main-content dt img {
+      display: block;
+      margin: 0 auto;
       width: 110px; }
       @media (max-width: 479px) {
         main .main-content dt img {

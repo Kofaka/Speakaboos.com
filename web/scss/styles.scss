@@ -300,6 +300,8 @@ main {
     dt {
 
       img {
+        display: block;
+        margin: 0 auto;
         width: 110px;
 
         @media (max-width: ($screen-phone - 1)) {

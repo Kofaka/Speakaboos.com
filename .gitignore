@@ -3,4 +3,4 @@ vendor/
 *.DS_Store
 *.css.map
 web/.idea/
-web/.sass-cache/
+.sass-cache/
